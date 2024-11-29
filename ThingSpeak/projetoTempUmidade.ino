@@ -2,8 +2,8 @@
 #include <HTTPClient.h>
 #include "DHT.h"
 
-// DHT22 is defined as DHT22 instead of DHT11
-#define DHTPIN 4
+// DHT22 está definido
+#define DHTPIN 4       // porta que está conectado no ESP32 
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
 
