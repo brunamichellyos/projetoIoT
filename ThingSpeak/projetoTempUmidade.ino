@@ -13,7 +13,7 @@ const char* password = "password";    // senha da rede WiFi
 // Domain Name with full URL Path for HTTP POST Request
 const char* serverName = "http://api.thingspeak.com/update";  // não alterar
 // APIKey que está na thingspeak
-String apiKey = "NUA1JRS19HR8OC9P";
+String apiKey = "suaWriteAPIKey";
 
 void setup() {
   Serial.begin(115200);
